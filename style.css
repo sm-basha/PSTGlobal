@@ -1,3 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 .logo {
   width: auto;
   height: 100px;
@@ -18,22 +24,43 @@ position: fixed; */
   transition: top 0.5s;
 }
 
-.navbar {
-  float: right;
-  padding: 2rem;
-}
-.nav-link {
+
+/* .nav-link {
   margin: 0 1rem;
   color: #181848;
   font-size: 20px;
   font-weight: 600;
+} */
+
+
+.nav-item {
+  padding: 0 2rem;
 }
 
+.navbar a {
+  color: #222;
+  font-weight: 700;
+}
 
+.navbar-toggler-icon {
+  background-image: url(images/navbar-toggle.png);
+}
 
+.navbar {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  padding: 0 1rem;
+}
 
+nav.black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
-
+.navbar a.white {
+  color: #fff;
+  font-weight: 700;
+}
 
 
 
@@ -78,4 +105,22 @@ position: fixed; */
 #header .carousel .carousel-inner .carousel-item img {
   object-fit: cover;
   height: 100%;
+}
+
+
+
+
+
+/* MEDIA QUERY */
+@media(max-width:780px) and (min-width:202px) {
+
+
+  .navbar {
+    text-align: center;
+  }
+
+  h1{font-size: 3.5rem !important; margin-bottom: 1rem;}
+  h2{font-size: 1.5rem !important;}
+
+
 }
