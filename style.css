@@ -1,0 +1,81 @@
+.logo {
+  width: auto;
+  height: 100px;
+  z-index: 10;
+  margin: 1rem;
+  position: absolute;
+}
+
+
+#navbar {
+  /* background-color: rgb(224,235,232, 0.3);
+position: fixed; */
+  top: 0;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  display: block;
+  transition: top 0.5s;
+}
+
+.navbar {
+  float: right;
+  padding: 2rem;
+}
+.nav-link {
+  margin: 0 1rem;
+  color: #181848;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+#header {
+  width: 100%;
+  height: 100vh;
+}
+
+#header .carousel {
+  height: 100%;
+}
+
+#header .carousel .carousel-inner {
+  height: 100%;
+}
+
+#header .carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+
+#header .carousel .carousel-inner .carousel-item .title {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+#header .carousel .carousel-inner .carousel-item .title h1 {
+  font-size: 5rem;
+}
+
+#header .carousel .carousel-inner .carousel-item .title .animated {
+  animation-duration: 1.3s;
+  animation-delay: 0.5s;
+}
+
+#header .carousel .carousel-inner .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
