@@ -122,9 +122,15 @@ nav.black {
 
 /* SERVICES */
 .service-box {
-  border: 0.2rem solid;
+  /* border: 0.1rem solid; */
   padding: 2rem;
   border-radius: 1rem;
+  /* margin: 0 5px 0; */
+}
+
+.service-box:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 /* WHY */
@@ -341,7 +347,16 @@ textarea {
 /*screen resolutions lower than 620px*/
 @media all and (max-width: 1180px) {
 
-  #service-details img {width: 380px;}
+  #service-details img {
+    width: 380px;
+  }
+
+  form,
+  .contact-form {
+    width: 100%;
+    max-width: 100%;
+  }
+
   .wrap {
     width: 100%;
     height: 100%;
@@ -504,6 +519,7 @@ textarea {
   background-size: cover;
   background-color: #222;
 }
+
 /* #footer span a{color: #999;} */
 
 .contact-wrap h1 {
