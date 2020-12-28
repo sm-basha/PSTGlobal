@@ -341,7 +341,7 @@ textarea {
 /*screen resolutions lower than 620px*/
 @media all and (max-width: 1180px) {
 
-  #service-details img {width: 380px;
+  #service-details img {width: 380px;}
   .wrap {
     width: 100%;
     height: 100%;
